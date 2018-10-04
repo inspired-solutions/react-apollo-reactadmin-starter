@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Technologies used on this project:
+
+React + Apollo Client + React-Admin
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) v.1.5.2.
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md).
@@ -123,10 +127,6 @@ In most cases bumping the `react-scripts` version in `package.json` and running 
 
 We commit to keeping the breaking changes minimal so you can upgrade `react-scripts` painlessly.
 
-## Sending Feedback
-
-We are always open to [your feedback](https://github.com/facebook/create-react-app/issues).
-
 ## Folder Structure
 
 After creation, your project should look like this:
@@ -146,6 +146,25 @@ my-app/
     index.css
     index.js
     logo.svg
+      config/
+        app.js
+        auth.js
+      utils/
+        graphql.js
+        auth.js
+      resources/
+        users/
+          index.js
+          create.js
+          edit.js
+          show.js
+          list.js
+        posts/
+          index.js
+          create.js
+          edit.js
+          show.js
+          list.js
 ```
 
 For the project to build, **these files must exist with exact filenames**:
